@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "webpack serve",
-    "build": "cross-env NODE_ENV=production webpack && cp -r public/* dist/",
+    "build": "cross-env NODE_ENV=production webpack",
     "test": "jest --watchAll"
   },
   "dependencies": {
